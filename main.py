@@ -21,6 +21,19 @@ for i in numeros:
     elif i%2!=0:
         impares.append(i)
 
-print(numeros)
-print(pares)
-print(impares)
+pares = tuple(pares)
+impares = tuple(impares)
+
+ln(30)
+print("Números pares:")
+ln(30)
+print(f"Quantidade de números pares: {len(pares)}")
+print(f"Soma de todos os números: {sum(pares)}")
+print(f"Todos os pares: {pares}\n\n")
+
+ln(30)
+print("Números impares:")
+ln(30)
+print(f"Quantidade de números impares: {len(impares)}")
+print(f"Soma de todos os números: {sum(impares)}")
+print(f"Todos os impares: {impares}\n\n\n")
